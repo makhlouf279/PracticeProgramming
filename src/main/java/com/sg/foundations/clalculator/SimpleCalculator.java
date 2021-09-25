@@ -8,7 +8,7 @@ public class SimpleCalculator {
     public SimpleCalculator() {
 
     }
-
+//
     public void addition(double number1, double number2){
         result=number1 + number2;
         System.out.println( number1 + " + " + number2 + " = " +result);
