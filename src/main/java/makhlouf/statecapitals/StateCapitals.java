@@ -35,7 +35,7 @@ public class StateCapitals {
         for(String c: coll){
             System.out.println(c);
         }
-
+//
 
         System.out.println(".........");
         System.out.println(".........");
