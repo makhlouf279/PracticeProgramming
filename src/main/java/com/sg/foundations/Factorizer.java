@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Factorizer {
     public static void main(String[] args) {
-            facturiel();
+
+
+       facturiel();
 
     }
     public  static void facturiel(){
@@ -16,10 +18,11 @@ public class Factorizer {
         Scanner input = new Scanner(System.in);
         System.out.print("What number would you like to factor?");
         int number = input.nextInt();
-        System.out.println("The factors of 6 are: ");
-        for(int i= 0; i<number; i++){
-            if(number % (number-i)==0){
-                 fac [i] = number-i;
+        System.out.println("The factors of " + number + " are: ");
+
+        for(int i = 0; i< number; i++){
+            if(number % (number -i)==0){
+                 fac [i] = number -i;
                 System.out.println(fac[i]);
                   numberOfFactors += 1;
             }

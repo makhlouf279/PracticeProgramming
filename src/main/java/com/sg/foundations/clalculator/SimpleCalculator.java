@@ -5,13 +5,13 @@ public class SimpleCalculator {
 
     private double result;
 
-    public SimpleCalculator() {
-
+    public double getResult() {
+        return result;
     }
-//
-    public void addition(double number1, double number2){
+
+    public double addition(double number1, double number2){
         result=number1 + number2;
-        System.out.println( number1 + " + " + number2 + " = " +result);
+       return result;
     }
     
     

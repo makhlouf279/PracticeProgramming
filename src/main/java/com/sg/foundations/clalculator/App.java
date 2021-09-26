@@ -34,6 +34,7 @@ public class App {
                 switch (ope) {
                     case 1:
                         calculator.addition(num1, num2);
+                        System.out.println( num1  + " + " +  num2  + " = " + calculator.getResult());
                         break;
                     case 2:
                         calculator.multiplication(num1, num2);
