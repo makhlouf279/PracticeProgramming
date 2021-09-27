@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="PracticeProgramming" options="--add-modules java.base" />
+      <module name="PracticeProgramming" options="" />
     </option>
   </component>
 </project>
